@@ -32,7 +32,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/google-maps-flutter-getx.git
+   git clone https://github.com/HetRMangukiya/Google_Maps_Flutter.git
    cd google-maps-flutter-getx
    ```
 
