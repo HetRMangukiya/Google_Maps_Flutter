@@ -54,7 +54,6 @@ Before you begin, ensure you have met the following requirements:
 **Code Structure** 
 
    ```bash
-   google-maps-flutter-getx/
    ├── lib/
    │   ├── controllers/
    │   │   └── map_controller.dart
