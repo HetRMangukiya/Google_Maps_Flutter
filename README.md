@@ -1,6 +1,6 @@
 # Google Maps in Flutter with GetX Controller - Step 07
 
-This repository contains the code for implementing Google Maps in a Flutter application using GetX for state management. This step-by-step guide is designed to complement the YouTube video tutorial available [here](https://youtu.be/your-video-link).
+This repository contains the code for implementing Google Maps in a Flutter application using GetX for state management. This step-by-step guide is designed to complement the YouTube video tutorial available [here](https://youtu.be/cRYueO3Tegg).
 
 ## Overview
 
