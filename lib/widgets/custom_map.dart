@@ -7,16 +7,17 @@ class CustomMap extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final MapController mapController = Get.find();
-    return GoogleMap(
+    return Obx(() => GoogleMap(
       onMapCreated: mapController.onMapCreated,
       initialCameraPosition: CameraPosition(
-        target: LatLng(22.5937, 78.9629), // Coordinates for the center of India
-        zoom: 5, // Adjust zoom level to show the whole country
+        target: LatLng(22.5937, 78.9629),
+        zoom: 5,
       ),
+      mapType: mapController.mapType.value, // Set the map type
       markers: mapController.markers.toSet(),
       onTap: (position) {
         mapController.addMarker(position);
       },
-    );
+    ));
   }
 }

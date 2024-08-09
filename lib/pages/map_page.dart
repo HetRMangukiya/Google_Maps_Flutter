@@ -1,6 +1,7 @@
 // lib/pages/map_page.dart
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:google_maps_flutter_example/controllers/map_controller.dart';
 import 'package:google_maps_flutter_example/widgets/custom_map.dart';
 
@@ -15,6 +16,35 @@ class MapPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Google Maps with GetX'),
+        actions: [
+          Obx(() {
+            return DropdownButton<MapType>(
+              value: mapController.mapType.value,
+              icon: Icon(Icons.map, color: Colors.white),
+              dropdownColor: Colors.white,
+              underline: SizedBox(),
+              onChanged: (MapType? newType) {
+                if (newType != null) {
+                  mapController.changeMapType(newType);
+                }
+              },
+              items: <DropdownMenuItem<MapType>>[
+                DropdownMenuItem(
+                  child: Text('Default'),
+                  value: MapType.normal,
+                ),
+                DropdownMenuItem(
+                  child: Text('Satellite'),
+                  value: MapType.satellite,
+                ),
+                DropdownMenuItem(
+                  child: Text('Terrain'),
+                  value: MapType.terrain,
+                ),
+              ],
+            );
+          }),
+        ],
       ),
       body: Column(
         children: [
