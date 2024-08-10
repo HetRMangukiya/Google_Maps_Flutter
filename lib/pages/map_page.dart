@@ -1,4 +1,3 @@
-// lib/pages/map_page.dart
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
@@ -16,7 +15,9 @@ class MapPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Google Maps with GetX'),
-        actions: [
+      ),
+      body: Column(
+        children: [
           Obx(() {
             return DropdownButton<MapType>(
               value: mapController.mapType.value,
@@ -41,13 +42,13 @@ class MapPage extends StatelessWidget {
                   child: Text('Terrain'),
                   value: MapType.terrain,
                 ),
+                DropdownMenuItem(
+                  child: Text('Hybrid (Satellite + Labels)'),
+                  value: MapType.hybrid,
+                ),
               ],
             );
           }),
-        ],
-      ),
-      body: Column(
-        children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: TextField(
