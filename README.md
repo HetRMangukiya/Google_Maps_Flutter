@@ -66,8 +66,6 @@ Before you begin, ensure you have met the following requirements:
    └── README.md
    ```
 
-> Part-2 
-
 ## What's New in Part-2
 
 In this part of the series, we have added the following features:
