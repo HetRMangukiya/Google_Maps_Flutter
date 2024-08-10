@@ -76,3 +76,12 @@ In this part of the series, we have added the following features:
 - **Single Marker Addition:** When a user selects a location, a marker is added to that specific spot on the map.
 
 For a detailed walkthrough of these features, check out the YouTube video for Part-2 [Tap here](https://www.youtube.com/watch?v=ffbWopren0g).
+
+## Screenshots
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/df4a72e6-29fe-4ded-a88f-7d676180c51c" alt="Screenshot 1" width="200"/>
+  <img src="https://github.com/user-attachments/assets/12f253b0-e075-46ac-9c66-cb9eaaa6f52b" alt="Screenshot 2" width="200"/>
+  <img src="https://github.com/user-attachments/assets/938cc814-52b3-4a17-888c-074e98757c40" alt="Screenshot 3" width="200"/>
+  <img src="https://github.com/user-attachments/assets/2f226c2c-c513-41f2-a6e8-2bb00341d1fa" alt="Screenshot 4" width="200"/>
+</p>
