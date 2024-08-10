@@ -65,3 +65,16 @@ Before you begin, ensure you have met the following requirements:
    ├── pubspec.yaml
    └── README.md
    ```
+
+> Part-2 
+
+## What's New in Part-2
+
+In this part of the series, we have added the following features:
+
+- **Map Type Selection:** Users can switch between different types of maps, such as Default, Satellite, and Terrain.
+- **Country, District, and Road Names:** Names of countries, districts, roads, and other map details are displayed, even in Satellite view.
+- **Search Location:** Users can search for any location by entering the name or address, with dynamic suggestions appearing as they type.
+- **Single Marker Addition:** When a user selects a location, a marker is added to that specific spot on the map.
+
+For a detailed walkthrough of these features, check out the YouTube video for Part-2 [Tap here](https://www.youtube.com/watch?v=ffbWopren0g).
